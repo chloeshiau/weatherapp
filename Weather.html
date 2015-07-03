@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>My Weather App</title>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel = "stylesheet" href = "myweather.css"> 
+<link rel = "stylesheet" href = "untitled.css"> <!-- Edited bootstrap to change background color -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src = "myScript.js"></script>
+
+</head>
+<body>
+<div id = "name">WHAT'S THE WEATHER LIKE TODAY?</div>
+<div id ="zipcode">ZIPCODE: <input type = "text" onkeydown = "WeatherFunction()" id = "codeInput">
+	<input type = "button" id = "weather" onclick ="WeatherFunction1()" value = "SUBMIT" >
+</div>
+<input type = "button" id = "forecast" onclick = "ForecastFunction()" value = "NEXT FORECAST"/>
+<input type = "button" id = "forecast1" onclick = "ForecastFunction1()" value = "HIDE FORECAST"/>
+<br>
+<img id = "weatherbox">
+<br>
+<div id = "weatherdate"></div>
+<div id = "weatherother"></div>
+<div id = "nextday"></div>
+<div id = "nextday1"></div>
+</body>
+
+<footer>
+	<a href="https://www.yahoo.com/?ilc=401" target="_blank"> <img src="https://poweredby.yahoo.com/purple.png" width="134" height="29"/> </a>
+</footer>
+</html>

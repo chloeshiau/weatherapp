@@ -1,0 +1,54 @@
+footer {
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+input {
+	position: relative;
+}
+#zipcode {
+	position: relative;
+	font-size:20px;
+	margin-top: 20px;
+	font-weight: 200;
+}
+#weather {
+	margin-top: 5px;
+}
+#forecast {
+	display: none;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+#forecast1 {
+	display: none;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+#weatherbox {
+	height:340px;
+	width: 340px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+#name {
+	letter-spacing: 6px;
+	font-size: 50px;
+	margin-top: 5px;
+}
+#weatherdate {
+	margin-top: 15px;
+	font-size: 20px;
+}
+#weatherother {
+	font-size: 20px;
+}
+#nextday {
+	margin-top: 5px;
+	font-size: 20px;
+}
+#nextday1 {
+	font-size: 20px;
+}
